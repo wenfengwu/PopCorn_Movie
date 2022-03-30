@@ -1,54 +1,11 @@
-# Popcorn
+1. This is a movie rating and commenting website for customer to track their watched movie and share experience about movies.
 
-## Schema
+2. Backend was bulit by Java(JDK1.8), SpringBoot, SpringMVC, JWT, MongoDB with JPA ORM.
 
-Movie {
-    retrieve from API;
-    year:
-    actors;
-    directors;
-    description
-    title;
-    movieRating (PG13)
-    categories;
-    id;
-    coverImage;
-    language;
-    duration;
-    releaseDate;
-    totalScore;
-    totalRatingCount;
-    trialUrl;
-}
+3. Frontend was bulit by JavaScript, HTML, CSS, React, and realted technologies.
 
-user {
-    id;
-    email;
-    username;
-    password;
-    avatar;
-  }
+4. Recommend system was bulit by Python, Annoy(Approxiamte Nearest Neighbors), using nearest-neighbor-search algorithm.
 
-  userWatchStatus {
-    id;
-    user_id
-    movie_id
-    status (watched/toWatch)
-  }
-
-
-comment {
-    id;
-    user_id;
-    movie_id;
-    total_like;(default 0)
-    msg (can be empty);
-    scores(1-5)
-}
-
-userLikes {
-  id;
-  user_id;
-  comment_id;
-}
-
+Website demo:
+1. Login and Reigster:
+![](demo/login.jpg)
