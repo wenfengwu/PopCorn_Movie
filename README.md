@@ -4,7 +4,7 @@
 
 3. Frontend was bulit by JavaScript, HTML, CSS, React, and realted technologies.
 
-4. Recommend system was bulit by Python, Annoy(Approxiamte Nearest Neighbors), using nearest-neighbor-search algorithm.
+4. Recommend system was bulit by Python, Annoy(Approximate Nearest Neighbors), using nearest-neighbor-search algorithm.
 
 Website demo:
   1. Login and Reigster:
